@@ -1,0 +1,26 @@
+lesson one
+------------------------------------------------------------------------------------
+program > steps to perform task /set of instruction
+
+software > program along with documentation
+
+s/w = program + documentation
+
+s/w component = program + document + operating procedure
+
+s/w crises = overrun development cost + exceed development time + quality not achived
+
+s/w engineering = systematic application of engineering principle and methods to design , development , 		  testing and maintainance of s/w products.
+
+
+🌾characteristics of s/w =
+>developed through s/w process
+>no physical wear and tear
+>custom built in feature
+>
+
+
+
+
+
+
