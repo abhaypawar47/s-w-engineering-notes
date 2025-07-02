@@ -258,8 +258,13 @@ D = Development time (months)
 🐶 unit 4 s/w testing
 ----------------------------------------------------------------------------------------
 > because of human error there will be bug or fault
-errror = human action -- detected during dev
-bug = problem in a software -- dected during testing
+- errror = human action -- detected during dev
+- bug = problem in a software -- dected during testing
+
+>unit testing - testing indivual component in isolation
+>integration testing- modules are combined and testing as a group
+>system testing - complete and integrated s/w system as a whole is tested with specified srs.
+> user acceptance testing - final testing phase before deployment check works in real world
 
 
 
