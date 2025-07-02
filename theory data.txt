@@ -20,7 +20,7 @@ s/w engineering = systematic application of engineering principle and methods to
 
 🌾major problem in s/w development
 >inadequate req gathering 
->lack of communication between stackholder
+>lack of communication between stackholder.
 >poor project managment 
 >lack of risk mitigation
 >wrong technology selection
