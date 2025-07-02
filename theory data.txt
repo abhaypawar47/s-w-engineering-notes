@@ -226,16 +226,14 @@ exchange paper piece of paper for revised requiements
 ⦁	defined
 ⦁	quantitively managed
 ⦁	optmizing
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 💖lesson 03 s/w designing
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 🐶design
 >input <srs> output <sdd>
 >sdd contain all points in srs.
-
----------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------
 🐶The COCOMO Model (Constructive Cost Model) is a software cost estimation model developed by Barry Boehm. It helps estimate:
 ⦁	Effort (in person-months),
 ⦁	Development time (in months),
