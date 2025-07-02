@@ -265,6 +265,10 @@ D = Development time (months)
 >integration testing- modules are combined and testing as a group
 >system testing - complete and integrated s/w system as a whole is tested with specified srs.
 > user acceptance testing - final testing phase before deployment check works in real world
+> regression testing - ensure that previously developed and tested s/w work well after making changes / updates / bug fixes
+>black box approach= check system as a whole
+>white box approach = consered on process
+
 
 
 
