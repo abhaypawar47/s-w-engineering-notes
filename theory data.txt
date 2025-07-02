@@ -232,7 +232,7 @@ exchange paper piece of paper for revised requiements
 --------------------------------------------------------------------------------------------------
 🐶design
 >input <srs> output <sdd>
->sdd contain all points in srs
+>sdd contain all points in srs.
 
 ---------------------------------------------------------------------------------------------------
 
