@@ -699,4 +699,5 @@ The process of refining, structuring, and understanding the gathered requirement
     5.  Acting on the decision.
     6.  Reflecting on the outcome.
 * **Codes of Ethics and Professional Practices:** Formal guidelines established by professional organizations (e.g., IEEE, PMI) that outline expected ethical conduct and professional standards for individuals working in the field. These codes provide a framework for ethical decision-making.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+notes from message 
