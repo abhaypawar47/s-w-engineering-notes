@@ -1,5 +1,5 @@
 
-# Software Engineering Study Notes
+# Software Engineering Study Notes from video
 
 ---
 
@@ -344,4 +344,191 @@ A procedure followed during the development of a software product in a well-defi
 * **Adaptive Maintenance:** Modifying the software to adapt to changes in its environment (e.g., new operating system, hardware, or third-party software).
 * **Perfective Maintenance:** Enhancing the software by adding new features, improving performance, or improving maintainability based on user feedback or evolving requirements.
 * **Preventive Maintenance:** Modifying the software to prevent potential future problems, often by improving code structure, documentation, or maintainability.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Software Engineering Study Notes from syllabus
+
+## Unit I: Introduction to Software Engineering
+
+### 📚 Nature of Software
+
+* **Software:** More than just a program; it includes data structures, documentation, and configuration information.
+* **Characteristics:**
+    * **Developed, not manufactured:** Software doesn't "wear out" physically like hardware; it can deteriorate logically (becomes outdated, hard to maintain).
+    * **Custom-built:** Often designed for specific needs, though reusable components exist.
+    * **Intangible:** Cannot be touched or seen directly, making its development and quality assessment challenging.
+
+### 🔄 Software Process
+
+* A framework for the activities, actions, and tasks required to build high-quality software.
+* **Purpose:** Provides a roadmap for developing software, ensuring systematic progress and quality control.
+
+### 🛠️ Software Engineering Practices
+
+* **Communication:** Effective exchange of information between stakeholders.
+* **Planning:** Creating a roadmap for the project, including tasks, resources, and timelines.
+* **Modeling:** Creating abstractions (diagrams, documents) to understand the problem and design the solution.
+* **Construction:** Coding and testing the software.
+* **Deployment:** Delivering the software to the user and providing support.
+
+### 💡 Software Myths
+
+Common misconceptions about software, often held by managers, customers, or even developers, that can lead to problems.
+* **Management Myths:** E.g., "We have a book of standards, so quality is assured." (Standards aren't always followed or sufficient).
+* **Customer Myths:** E.g., "General statements of objectives are sufficient to start writing programs; details can be added later." (Leads to incomplete requirements and rework).
+* **Practitioner Myths:** E.g., "Once the program is working, our job is done." (Ignores maintenance and evolution).
+
+### ⚙️ Generic Process Model
+
+A general framework for software development, typically involving:
+1.  **Communication:** Gathering requirements.
+2.  **Planning:** Defining the project scope, resources, and schedule.
+3.  **Modeling:** Designing the software architecture and components.
+4.  **Construction:** Coding and testing.
+5.  **Deployment:** Delivery and feedback.
+
+### 📊 Analysis and Comparison of Process Models
+
+Different approaches to organize and manage software development activities.
+
+* **Waterfall Model:**
+    * **Description:** Linear, sequential flow; each phase must be completed before the next begins.
+    * **Characteristics:** Simple, easy to manage, good for small projects with stable, well-defined requirements.
+    * **Drawbacks:** Inflexible, difficult to go back, risks detected late. (See Lesson 1 notes for more detail).
+
+* **Incremental Model:**
+    * **Description:** Builds the software in small, manageable increments, adding features with each cycle.
+    * **Characteristics:** Delivers working software early, good for evolving requirements, reduces risk.
+    * **Drawbacks:** Requires careful planning of increments, integration can be complex. (See Lesson 1 notes for more detail).
+
+* **Evolutionary Models:**
+    * **Description:** Develops software in an iterative manner, allowing the system to evolve over time based on feedback.
+    * **Examples:** Prototyping Model, Spiral Model.
+    * **Characteristics:** Handles changing requirements well, provides early user feedback.
+
+    * **Prototyping Model:** (See Lesson 1 notes for more detail).
+    * **Spiral Model:** (See Lesson 1 notes for more detail).
+
+* **Concurrent Models:**
+    * **Description:** Different activities (e.g., modeling, construction) can occur concurrently and are event-driven.
+    * **Characteristics:** More flexible than sequential models, allows for parallel work.
+    * **Example:** Concurrent Engineering Model.
+
+* **Personal and Team Process Models (PSP & TSP):**
+    * **PSP (Personal Software Process):** A structured framework for individual software engineers to improve their personal productivity and quality. Focuses on disciplined practices.
+    * **TSP (Team Software Process):** A defined process for software engineering teams to develop self-directed, high-performance teams. Built upon PSP principles.
+
+### 🧹 Clean Room Software Engineering
+
+* **Goal:** To produce software with certified reliability and zero defects.
+* **Approach:** Emphasizes formal methods, mathematical verification, and statistical process control rather than traditional debugging after coding. Focuses on preventing errors rather than finding them.
+
+### 🛡️ Software Quality Assurance (SQA)
+
+* **Definition:** A set of activities designed to ensure that software engineering processes, methods, activities, and work products are monitored and comply with defined standards.
+* **Verification:** "Are we building the product right?" (Checks against specifications).
+* **Validation:** "Are we building the right product?" (Checks against user needs).
+* **SQA Plans:** Documents outlining the SQA activities, responsibilities, and procedures for a project.
+* **Software Quality Frameworks:** Standardized approaches to managing and assuring software quality.
+* **ISO 9000 Models:** International standards for quality management systems; provide a framework for organizations to ensure they consistently meet customer and regulatory requirements.
+* **CMM Models (Capability Maturity Model):** (See Lesson 1 notes for more detail on maturity levels). A framework for assessing and improving the maturity of an organization's software processes.
+
+---
+
+## Unit II: Requirement Analysis
+
+### 📝 Requirements Capturing (Requirements Engineering)
+
+The process of defining, documenting, and maintaining software requirements.
+
+* **Elicitation:** The process of gathering requirements from stakeholders through various techniques (interviews, workshops, brainstorming).
+* **Specification:** Documenting the gathered requirements clearly, unambiguously, and completely (e.g., in an SRS).
+* **Validation:** Confirming that the documented requirements are correct, complete, consistent, and reflect stakeholder needs.
+* **Negotiation:** Resolving conflicts among stakeholders' requirements and reaching a consensus.
+
+* **Prioritizing Requirements (Kano Diagram):**
+    * A model that classifies customer preferences into five categories:
+        * **Must-be Quality:** Basic features customers expect (dissatisfaction if absent, no satisfaction if present).
+        * **One-dimensional Quality:** Performance features (satisfaction increases with presence, dissatisfaction with absence).
+        * **Attractive Quality:** Unexpected features that delight customers (high satisfaction if present, no dissatisfaction if absent).
+        * **Indifferent Quality:** Features that don't impact customer satisfaction.
+        * **Reverse Quality:** Features that lead to dissatisfaction if present.
+    * Helps prioritize features based on their impact on customer satisfaction.
+
+* **Real-life Application using Case Study:** Requirements capturing often involves analyzing real-world scenarios and business processes to extract functional and non-functional requirements. Case studies help illustrate how this process works in practice.
+
+### 🔍 Requirements Analysis
+
+The process of refining, structuring, and understanding the gathered requirements.
+
+* **Basics:** Involves breaking down high-level requirements into detailed, unambiguous specifications.
+* **Scenario-based Modeling:** Describes how users interact with the system to achieve specific goals.
+    * **Use Case Diagrams:** Visual representations of user interactions with a system. They show external actors and the use cases (functions) they perform.
+    * **Use Case Description:** Textual detailing of a use case, including actor, precondition, post-condition, normal flow, and alternative flows.
+
+* **UML Models (Unified Modeling Language):** A standardized graphical notation for modeling object-oriented software systems.
+    * **Use Case Diagram:** (As above) Illustrates functional requirements from the user's perspective.
+    * **Class Diagram:** Shows the static structure of a system, including classes, their attributes, operations, and relationships between classes.
+
+* **Data Modeling:** Defines the structure and organization of data.
+    * **Data Flow Model:** Shows how data moves through a system (Data Flow Diagrams - DFDs). Focuses on what data flows between processes and data stores.
+    * **Control Flow Model:** Describes the sequence of operations or events in a system.
+
+* **Behavioral Modeling using State Diagrams:**
+    * **State Diagrams (State Machine Diagrams):** Describe the behavior of a system or an object in response to events. They show all possible states an object can be in and how it transitions between these states.
+    * **Purpose:** Useful for modeling the dynamic aspects of a system, especially for reactive systems.
+
+* **Real-life Application Case Study:** Applying these analysis techniques to practical scenarios to derive detailed system specifications.
+
+### 📄 Software Requirement Specification (SRS)
+
+* **Definition:** A comprehensive document that describes the functional and non-functional requirements of a software system.
+* **Purpose:** Serves as a contract between the customer and the development team, ensuring shared understanding.
+* **Qualities:** Clear, unambiguous, complete, consistent, verifiable, traceable, modifiable.
+* **(See Lesson 2 notes for more detail on Requirement Analysis and SRS).**
+
+---
+
+## Unit III: Agile Development Process
+
+### 🚀 Agile Development
+
+* **Definition:** An iterative and incremental approach to software development that focuses on collaboration, customer feedback, and adapting to change.
+* **Agile Manifesto:** A set of four core values and twelve guiding principles for agile software development.
+    * **Values:**
+        * Individuals and interactions over processes and tools.
+        * Working software over comprehensive documentation.
+        * Customer collaboration over contract negotiation.
+        * Responding to change over following a plan.
+* **Agility and Cost of Change:** Agile methods aim to reduce the cost of change by making changes early and frequently, rather than accumulating them for a large, late-stage overhaul.
+* **Agility Principles:** Derived from the Manifesto, emphasizing continuous delivery, customer satisfaction, welcoming change, frequent delivery, collaboration, motivated individuals, face-to-face conversation, sustainable development, technical excellence, simplicity, self-organizing teams, and regular reflection.
+* **Myth of Planned Development:** Challenges the idea that all aspects of a software project can be accurately planned upfront. Agile acknowledges uncertainty and embraces adaptive planning.
+* **Toolset for the Agile Process:** Tools that support agile practices, such as project management software (Jira, Trello), version control (Git), continuous integration tools, and communication platforms.
+
+### 🧪 Extreme Programming (XP)
+
+* **Definition:** An agile software development framework that emphasizes a set of specific practices for high-quality, rapidly delivered software.
+* **XP Values:** Simplicity, Communication, Feedback, Courage, Respect.
+* **XP Process:** Follows a cyclical process of planning, designing, coding, and testing, with constant feedback loops.
+* **Industrial XP:** Adapts XP principles and practices for larger, more complex organizational contexts.
+
+### 🏃 SCRUM
+
+* **Definition:** A popular agile framework for managing complex adaptive problems, while productively and creatively delivering products of the highest possible value.
+* **Scrum Process Flow (Scrum Cycle):** Iterative cycles called "Sprints" (typically 1-4 weeks).
+    1.  **Product Backlog:** A prioritized list of features, functions, requirements, enhancements, and fixes for the product.
+    2.  **Sprint Planning Meeting:** Team selects items from the Product Backlog to work on during the sprint and creates a Sprint Backlog.
+    3.  **Sprint Backlog:** A subset of the Product Backlog, containing the items chosen for the current sprint, along with the plan for delivering them.
+    4.  **Sprint Execution:** The development team works on the Sprint Backlog items.
+    5.  **Daily Scrum Meeting (Daily Stand-up):** A short (15-minute) meeting where the Development Team synchronizes activities and plans for the next 24 hours. (What did I do yesterday? What will I do today? Any impediments?)
+    6.  **Maintaining Sprint Backlog:** The Sprint Backlog is dynamic and updated daily by the Development Team.
+    7.  **Burn-down Chart:** A chart that shows the amount of work remaining in a sprint or project over time. Used to track progress.
+    8.  **Sprint Review:** An informal meeting at the end of the sprint where the Development Team demonstrates the completed increment to stakeholders and gathers feedback.
+    9.  **Retrospective:** A meeting where the Scrum Team inspects itself and creates a plan for improvements to be enacted during the next sprint.
+
+* **Scrum Roles:**
+    * **Product Owner:** Represents the voice of the customer and stakeholders; manages and prioritizes the Product Backlog.
+    * **Scrum Master:** Facilitates the Scrum process, removes impediments, and ensures the team follows Scrum rules. (Servant-leader).
+    * **Development Team:** A self-organizing, cross-functional team responsible for delivering the product increment.
 ```
+
