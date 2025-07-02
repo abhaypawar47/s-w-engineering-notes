@@ -274,6 +274,12 @@ D = Development time (months)
 >equivalance partioning//black box technique
 
 ------------------------------------------------------------------------------------------
+chapter 5 s/w maintainance
+------------------------------------------------------------------------------------------
+>corrective : correction
+>adaptive : adaption to new environment
+>perfective : add enhancement like
+------------------------------------------------------------------------------------------
 
 
 
