@@ -530,5 +530,173 @@ The process of refining, structuring, and understanding the gathered requirement
     * **Product Owner:** Represents the voice of the customer and stakeholders; manages and prioritizes the Product Backlog.
     * **Scrum Master:** Facilitates the Scrum process, removes impediments, and ensures the team follows Scrum rules. (Servant-leader).
     * **Development Team:** A self-organizing, cross-functional team responsible for delivering the product increment.
-```
+
+## Unit IV: Project Planning
+
+### ⚙️ Project Initiation
+
+* The first phase of a project, where the project is formally started, and its initial scope and objectives are defined.
+* Involves defining the project's purpose, stakeholders, and high-level requirements.
+
+### 🗺️ Planning Scope Management
+
+* **Scope:** Defines all the work required to complete the project successfully, and nothing more.
+* **Scope Management:** The process of defining and controlling what is included in the project and what is not.
+* **Purpose:** Prevents scope creep (uncontrolled changes or continuous growth in a project’s scope).
+
+### 🏗️ Creating the Work Breakdown Structure (WBS)
+
+* **WBS:** A hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish project objectives and create the required deliverables.
+* Breaks down the project into smaller, more manageable components, making it easier to plan, estimate, and track.
+
+### ⏱️ Effort Estimation and Scheduling
+
+* **Effort Estimation:** The process of predicting the amount of work (person-hours/person-months) required to complete a project or a specific task.
+* **Scheduling:** The process of creating a timeline for project activities, allocating resources, and defining milestones.
+
+### 📅 Importance of Project Schedules
+
+* Provides a roadmap for project execution.
+* Helps in monitoring progress against planned timelines.
+* Facilitates resource allocation and management.
+* Enables effective communication among team members and stakeholders.
+* Highlights potential delays and critical activities.
+
+### 👥 Estimating Activity Resources
+
+* Identifying the types and quantities of resources (e.g., human resources, equipment, materials, software tools) required for each activity in the project.
+
+### ⏳ Estimating Activity Durations
+
+* Approximating the number of work periods needed to complete individual activities, typically based on resource estimates, historical data, and expert judgment.
+
+### 📈 Developing the Schedule using Gantt Charts
+
+* **Gantt Chart:** A bar chart that visually represents a project schedule.
+    * Horizontal bars show the start and end dates of activities, their durations, and dependencies.
+* **Adding Milestones to Gantt Charts:**
+    * **Milestones:** Significant points or events in a project schedule, representing the completion of a major phase or deliverable. They have zero duration.
+    * Help track key progress points and provide targets for the team.
+
+### 📊 Using Tracking Gantt Charts to Compare Planned and Actual Dates
+
+* A variation of the Gantt chart that allows comparing the original baseline schedule with the actual progress of activities.
+* Helps in identifying variances and monitoring project performance.
+
+### 🛣️ Critical Path Method (CPM)
+
+* **CPM:** A project management technique that determines the longest sequence of activities that must be completed on time for the entire project to be completed on schedule.
+* **Critical Path:** The sequence of tasks that has no "float" or "slack" (i.e., zero flexibility in their schedule). Any delay on the critical path will delay the entire project.
+
+### 🎲 Program Evaluation and Review Technique (PERT)
+
+* **PERT:** A project management technique used to analyze and represent the tasks involved in completing a project, particularly when the activity times are uncertain.
+* Uses a probabilistic approach to estimate activity durations (optimistic, pessimistic, most likely times) to calculate expected project completion time and associated risks.
+* **Examples:** Calculating the expected duration of tasks like "software module development" or "testing phase" where time can vary.
+
+### 💰 Planning and Estimating Costs
+
+* **Planning Cost Management:** Defining how project costs will be planned, structured, and controlled.
+* **Estimating Costs:** Approximating the monetary resources needed to complete project activities.
+* **Types of Cost Estimates:**
+    * **Rough Order of Magnitude (ROM):** Very early, broad estimate (e.g., -25% to +75% accuracy).
+    * **Budgetary Estimate:** More detailed, used for budget allocation (e.g., -10% to +25% accuracy).
+    * **Definitive Estimate:** Most accurate, based on detailed planning (e.g., -5% to +10% accuracy).
+* **Cost Estimation Tools and Techniques:** Expert judgment, analogous estimation, parametric estimation, three-point estimating (like PERT), bottom-up estimation.
+
+### ⚠️ Typical Problems with IT Cost Estimates
+
+* **Scope Creep:** Undefined or changing requirements.
+* **Lack of Historical Data:** No prior similar projects to base estimates on.
+* **Optimism Bias:** Tendency to underestimate time and cost.
+* **Technical Complexity:** Unforeseen technical challenges.
+* **Resource Availability:** Difficulty in securing required skilled personnel.
+* **Market Volatility:** Changes in technology costs or economic conditions.
+
+---
+
+## Unit V: Project Management
+
+### 📊 Project Monitoring and Control
+
+* **Definition:** The process of tracking, reviewing, and regulating the progress of a project to meet the performance objectives defined in the project plan.
+* **Tools for Project Management:**
+    * **Microsoft Project:** Comprehensive project management software for planning, scheduling, resource management, and tracking.
+    * **Open Source Tools:** Alternatives like ProjectLibre, GanttProject, Trello, Jira (commercial, but widely used for agile).
+
+### 🌟 Importance of Project Quality Management
+
+* Ensuring that the project and its deliverables meet defined quality standards and satisfy stakeholder needs.
+* **Planning Quality Management:** Identifying quality requirements and/or standards for the project and its deliverables, and documenting how the project will demonstrate compliance.
+* **Performing Quality Assurance:** Auditing the project's quality requirements and the results from quality control measurements to ensure appropriate quality standards and operational definitions are used.
+* **Controlling Quality:** Monitoring specific project results to determine whether they comply with relevant quality standards and identifying ways to eliminate causes of unsatisfactory performance.
+* **Tools and Techniques for Quality Control:**
+    * **Statistical Process Control:** Using statistical methods to monitor and control a process to ensure it operates at its full potential.
+    * **Six Sigma:** A disciplined, data-driven approach and methodology for eliminating defects (driving towards six standard deviations between the mean and the nearest specification limit) in any process.
+
+### 🚨 Risk Analysis & Management
+
+* **Risk:** An uncertain event or condition that, if it occurs, has a positive or negative effect on a project's objectives.
+* **Reactive versus Proactive Risk Strategies:**
+    * **Reactive:** Dealing with risks after they occur (firefighting).
+    * **Proactive:** Identifying and planning for risks before they occur (preferred approach).
+* **Software Risks:** Potential problems that could jeopardize the success of a software project (e.g., technical risks, project risks, business risks).
+* **Risk Identification:** Pinpointing potential risks through brainstorming, checklists, interviews.
+* **Risk Projection (Assessment):** Evaluating the likelihood and impact of identified risks.
+* **Risk Refinement:** Breaking down high-level risks into more specific, manageable ones.
+* **Risk Mitigation:** Developing options and actions to reduce threats to project objectives.
+* **Risks Monitoring and Management:** Tracking identified risks, monitoring residual risks, identifying new risks, and evaluating risk process effectiveness throughout the project lifecycle.
+* **The RMMM Plan (Risk Management, Monitoring, and Mitigation Plan):** A detailed plan for each identified risk, outlining its description, likelihood, impact, mitigation strategies, contingency plans, and responsible parties. Often developed for case study projects.
+
+### 🔄 Software Configuration Management (SCM)
+
+* **Definition:** A discipline that manages and tracks changes to software artifacts (code, documents, libraries, etc.) throughout the software development lifecycle.
+* **The SCM Repository:** A central database or system where all versions of software artifacts are stored and managed.
+* **SCM Process:** Involves identification, version control, change control, configuration status accounting, and configuration audits.
+* **Version Control and Change Control:**
+    * **Version Control:** Systematically managing changes to documents, computer programs, large websites, and other collections of information. (e.g., Git).
+    * **Change Control:** A formal process used to ensure that changes to a project's baseline are implemented in a controlled and coordinated manner.
+* **SCM Tools:**
+    * **GitHub:** A web-based platform for version control using Git, offering collaborative features like pull requests and issue tracking.
+    * **Others:** GitLab, Bitbucket, SVN, Perforce.
+* **Configuration Management for Web Apps:** Specific considerations for managing configurations (e.g., environment variables, database connections, API keys) in web applications, often using separate configuration files or environment variables.
+
+### ♻️ Maintenance & Reengineering
+
+* **Software Maintenance:** The process of modifying a software system or component after delivery to correct faults, improve performance or other attributes, or adapt to a changed environment.
+    * **Corrective Maintenance:** Fixing discovered errors/bugs.
+    * **Adaptive Maintenance:** Adapting software to a new environment (OS, hardware).
+    * **Perfective Maintenance:** Improving functionality, performance, or maintainability.
+    * **Preventive Maintenance:** Modifying to prevent future problems.
+* **Reengineering:** Re-creating an existing software system from scratch or with significant modifications to improve its quality, maintainability, or functionality, often without changing its external behavior.
+* **Business Process Reengineering (BPR):** The fundamental rethinking and radical redesign of business processes to achieve dramatic improvements in critical, contemporary measures of performance, such as cost, quality, service, and speed. (Broader than just software).
+
+---
+
+## Unit VI: Leadership and Ethics
+
+### 🤝 Project Leadership
+
+* **Project Leadership:** The ability to guide and motivate a project team to achieve project objectives.
+* **Approaches to Leadership:** Different philosophies or frameworks for how leaders operate (e.g., transformational, servant, transactional).
+* **Leadership Styles:**
+    * **Autocratic:** Leader makes decisions independently.
+    * **Democratic/Participative:** Leader involves team in decision-making.
+    * **Laissez-Faire:** Leader provides minimal guidance, allowing team to make decisions.
+    * **Transformational:** Inspires and motivates teams to achieve higher goals.
+    * **Servant Leadership:** Focuses on serving the needs of the team and stakeholders.
+* **Emotional Intelligence in Projects:** The ability to understand and manage one's own emotions, as well as perceive and influence the emotions of others. Crucial for effective communication, conflict resolution, and team motivation in project environments.
+
+### ⚖️ Ethics in Projects
+
+* **Ethical Leadership:** Leading by example, upholding moral principles, and fostering an ethical environment within the project team and among stakeholders.
+* **Common Ethical Dilemmas:** Situations where a project manager or team member faces a choice between two or more conflicting ethical principles or values (e.g., truthfulness vs. protecting privacy, project schedule vs. quality).
+* **Making Sound Ethical Decisions:** A systematic approach to ethical decision-making often involves:
+    1.  Identifying the ethical issue.
+    2.  Gathering facts.
+    3.  Evaluating alternative actions.
+    4.  Making a decision.
+    5.  Acting on the decision.
+    6.  Reflecting on the outcome.
+* **Codes of Ethics and Professional Practices:** Formal guidelines established by professional organizations (e.g., IEEE, PMI) that outline expected ethical conduct and professional standards for individuals working in the field. These codes provide a framework for ethical decision-making.
 
