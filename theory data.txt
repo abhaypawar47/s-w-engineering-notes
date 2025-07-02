@@ -254,7 +254,15 @@ c, d = Constants based on the project type
 P = Average number of persons required
 E = Effort (person-months)
 D = Development time (months)
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+🐶 unit 4 s/w testing
+----------------------------------------------------------------------------------------
+> because of human error there will be bug or fault
+errror = human action -- detected during dev
+bug = problem in a software -- dected during testing
+
+
+
 
 
 
